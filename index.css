@@ -17,14 +17,7 @@
     	}
     .col-3 {width: 100%;}
 
-}
-body {
-	background-image:url("look.jpg");
-	background-attachment:fixed;
-	background-position:middle center;
-	background-size: 1500px, 600px;
 
-}
 
 h1 {
 	color: black;
