@@ -7,22 +7,108 @@
 
 
 body {
-	background-color:pink;
+background-color:#C3CEB6;
+}
+
+h2 {
+color: black;
+font-family: "filson-soft", sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size:1.5em;
 }
 
 h1 {
 color: black;
 font-family: "filson-soft", sans-serif;
 font-style: normal;
-font-weight: 200;
-font-size:2em;
+font-weight: 700;
+font-size:3em;
 }
 
-img { 
-max-width:300px; 
-}
 
 a {
+display:inline-block;
+vertical-align: middle;
 text-decoration:none;
 color:black;
+padding-left:10px;
+font-weight:300;
+font-size:0.85em;
+float:right;
+}
+
+
+a:hover {
+color:pink;
+}
+
+
+@media only screen and (max-width:2400px)
+{
+	.col-1 {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -225px;
+margin-left: -300px;
+padding:100px;
+text-align:center;
+}
+
+@media only screen and (max-width:800px)
+{
+	.col-1 {
+position:absolute;
+top: 50%;
+left: 50%;
+margin-top: -225px;
+margin-left:-260px;
+padding:100px;
+text-align:center;
+}
+h1 { color: black;
+font-family: "filson-soft", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size:3em;
+}
+}
+
+@media only screen and (max-width:600px)
+{
+	.col-1 {
+position:absolute;
+top: 50%;
+left: 50%;
+margin-top: -225px;
+margin-left:-265px;
+padding:100px;
+text-align:center;
+}
+h1 { color: black;
+font-family: "filson-soft", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size:2.5em;
+}
+}
+
+@media only screen and (max-width:500px)
+{
+	.col-1 {
+position:absolute;
+top: 50%;
+left: 50%;
+margin-top: -225px;
+margin-left:-235px;
+padding:100px;
+text-align:center;
+}
+h1 { color: black;
+font-family: "filson-soft", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size:2.5em;
+}
 }
