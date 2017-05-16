@@ -16,7 +16,7 @@ color: black;
 font-family: "filson-soft", sans-serif;
 font-style: normal;
 font-weight: 200;
-font-size:1.5em;
+font-size:1.25em;
 }
 
 h1 {
@@ -37,12 +37,29 @@ padding-left:10px;
 font-weight:300;
 font-size:0.85em;
 float:right;
+padding:10px;
 }
 
+.contact {
+float:left;
+color:black;
+border-style:solid;
+border-width:.15px;
+padding:10px;
+border-color:black;
+}
+
+.contact:hover {
+border-color:#FFA397;	
+border-width:2px;
+color:black;
+text-decoration:none;
+}
 
 a:hover {
-color:pink;
+color:#FFA397;
 }
+
 
 
 @media only screen and (max-width:3200px)
@@ -52,9 +69,28 @@ position: absolute;
 top: 50%;
 left: 50%;
 margin-top: -225px;
-margin-left: -300px;
+margin-left: -280px;
 padding:100px;
 text-align:center;
+}
+
+@media only screen and (max-width:950px)
+{
+	.content {
+position:absolute;
+top: 50%;
+left: 50%;
+margin-top: -225px;
+margin-left:-240px;
+padding:100px;
+text-align:center;
+}
+h1 { color: black;
+font-family: "filson-soft", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size:3em;
+}
 }
 
 @media only screen and (max-width:800px)
@@ -83,7 +119,7 @@ position:absolute;
 top: 50%;
 left: 50%;
 margin-top: -225px;
-margin-left:-265px;
+margin-left:-225px;
 padding:100px;
 text-align:center;
 }
