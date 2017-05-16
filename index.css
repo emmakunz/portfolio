@@ -130,14 +130,14 @@ font-size:3em;
 }
 }
 
-@media only screen and (max-width:790px)
+@media only screen and (max-width:789px)
 {
 	.content {
 position:absolute;
 top: 50%;
 left: 50%;
 margin-top: -225px;
-margin-left:-290px;
+margin-left:-245px;
 padding:100px;
 text-align:center;
 }
