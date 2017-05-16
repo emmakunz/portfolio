@@ -112,14 +112,14 @@ font-size:3em;
 }
 }
 
-@media only screen and (max-width:600px)
+@media only screen and (max-width:640px)
 {
 	.content {
 position:absolute;
 top: 50%;
 left: 50%;
 margin-top: -225px;
-margin-left:-225px;
+margin-left:-235px;
 padding:100px;
 text-align:center;
 }
@@ -132,25 +132,6 @@ font-size:2.5em;
 }
 
 @media only screen and (max-width:500px)
-{
-	.content {
-position:absolute;
-top: 50%;
-left: 50%;
-margin-top: -225px;
-margin-left:-215px;
-padding: 70px;
-text-align:center;
-}
-h1 { color: black;
-font-family: "filson-soft", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size:2.5em;
-}
-}
-
-@media only screen and (max-width:400px)
 {
 	.content {
 position:absolute;
