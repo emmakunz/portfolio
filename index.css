@@ -86,6 +86,18 @@ padding:100px;
 text-align:center;
 }
 
+
+@media only screen and (max-width:1920px)
+{
+	.content {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -225px;
+margin-left: -270px;
+padding:100px;
+text-align:center;
+}
 @media only screen and (max-width:950px)
 {
 	.content {
