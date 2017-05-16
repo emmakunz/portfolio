@@ -93,7 +93,7 @@ position:absolute;
 top: 50%;
 left: 50%;
 margin-top: -225px;
-margin-left:-240px;
+margin-left:-260px;
 padding:100px;
 text-align:center;
 }
@@ -105,7 +105,7 @@ font-size:3em;
 }
 }
 
-@media only screen and (max-width:800px)
+@media only screen and (max-width:790px)
 {
 	.content {
 position:absolute;
